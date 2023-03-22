@@ -1,0 +1,32 @@
+/*
+Copy this file to ~/Library/KeyBindings/
+This keybinding is designed for the Colemak keylayout.
+
+    Key Modifiers 
+    ^ : Contrl 
+    $ : Shift 
+    ~ : Option
+    @ : Command
+*/
+
+{
+
+    "^n" = "moveBackward:";
+    "^e" = "moveDown:";
+    "^i" = "moveUp:";
+    "^o" = "moveForward:";
+    "^E" = ("moveDown:","moveDown:","moveDown:","moveDown:","moveDown:",);
+    "^I" = ("moveUp:","moveUp:","moveUp:","moveUp:","moveUp:",);
+
+    "^a" = "moveToBeginningOfLine:";
+    "^'" = "moveToEndOfLine:";
+    
+    "^m" = "moveWordBackward:";
+    "^/" = "moveWordForward:";
+
+    "^M"   ="moveToBeginningOfParagraph:";
+    "^?"   ="moveToEndOfParagraph:";
+
+    "^w" = "deleteWordBackward:";
+}
+
